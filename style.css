@@ -1,0 +1,140 @@
+
+    body {
+        background: linear-gradient(155deg, #F0BE6F, #1B4543, #B3D0C6);
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 100vh;
+        margin: 0;
+        background-attachment: fixed;
+    }
+
+        /* === PRIMARY COLORS === */
+
+    .btn-primary,
+    .btn-primary-sm,
+    .text-primary {
+        background-color: none  !important;
+        border-color: none !important;
+        color: #ffffff !important;
+    }
+
+    .bg-primary {
+        background-color: #ffffff !important;
+        color: #000000
+    }
+
+    .btn-primary-sm:hover, 
+    .btn-primary:hover {
+        color: #F0BE6F !important;
+    }
+
+    .btn-primary-sm:focus,
+    .btn-primary-sm:active,
+    .btn-primary-sm.active,
+    .btn-primary-sm:focus:active {
+        border: none !important;
+        outline: none !important;
+    }
+
+
+    /* === SECONDARY COLORS === */
+    .btn-secondary,
+    .bg-secondary, 
+    .btn-secondary-sm {
+        background-color: #F0BE6F !important;
+        border-color: #F0BE6F !important;
+        color: #fff !important;
+    }
+
+     .text-secondary {
+        color: #F0BE6F !important;
+     }
+
+    /* === SUCCESS COLORS === */
+    .btn-success,
+    .bg-success {
+        background-color: #6E9F65 !important;
+        border-color: #6E9F65 !important;
+        color: #fff !important;
+    }
+
+    .text-success {
+        color: #6E9F65 !important;
+    }
+
+    /* === INFO COLORS === */
+    .btn-info,
+    .bg-info {
+        background-color: #5F8BA4 !important;
+        border-color: #5F8BA4 !important;
+        color: #fff !important;
+    }
+
+    .text-info {
+        color: #5F8BA4 !important; 
+    }
+
+    /* === WARNING COLORS === */
+    .btn-warning,
+    .bg-warning {
+        background-color: #b34622 !important;
+        border-color: #b34622 !important;
+        color: #fff !important;
+    }
+
+    .text-warning {
+        color: #b34622 !important;
+    }
+
+    /* === LIGHT COLORS === */
+    .btn-light,
+    .bg-light,
+    .table-light {
+        background-color: #B3D0C6 !important;
+        border-color: #B3D0C6 !important;
+        color: #000 !important;
+    }
+
+    .text-light {
+        color: #B3D0C6 !important;
+    }
+
+
+    /* === DARK COLORS === */
+    .btn-dark,
+    .bg-dark {
+        background-color: #1B4543 !important;
+        border-color: #1B4543 !important;
+        color: #fff !important;
+    }
+
+    .text-dark {
+        color: #1B4543 !important; 
+    }
+
+    /* === Grow Buttons and Links === */
+    .link-grow:hover, 
+    .btn-grow:hover {
+        transform: scale(1.05);
+        transition: transform 0.2s ease;
+    }
+
+    /* === View Here Buttton */
+    .btn-view-here {
+        background-color: #6E9F65;
+        border-color: #F3ECEA;
+        color: #fff;
+        border-radius: 10px; 
+        font-size: 12px; 
+        padding: 5px;
+        box-shadow: #F3ECEA;
+    }
+
+    .btn-view-here:focus,
+    .btn-view-here:active,
+    .btn-view-here:focus:active {
+        outline: none;
+        box-shadow: none;
+    }
+
+
